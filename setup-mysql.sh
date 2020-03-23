@@ -65,3 +65,12 @@ MYSQL_INPUT2
 echo "Restarting MySQL..."
 sudo service mysql restart
 echo "Finished installing mysql"
+
+echo ####### Finally setup the firewall ####
+echo ####### Allow OPENSSH              ####
+echo ####### Allow Port 80              ####
+echo ####### Allow Port 443             ####
+
+sudo ufw allow OpenSSH
+# sudo ufw allow 3306
+
