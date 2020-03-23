@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 ########################################################################################
 ##########            TOMCAT Installation and configuration         ####################
 ##########            This is a scriptet version of this tutorial:  ####################
