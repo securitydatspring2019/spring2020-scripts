@@ -187,5 +187,13 @@ EOF_NGINX
 
 sudo systemctl restart nginx
 
+echo ####### Finally setup the firewall ####
+echo ####### Allow OPENSSH              ####
+echo ####### Allow Port 80              ####
+echo ####### Allow Port 443             ####
+
+sudo ufw allow OpenSSH
+sudo ufw allow http
+sudo ufw allow https
 
 
