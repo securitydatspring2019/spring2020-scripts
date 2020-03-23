@@ -73,4 +73,4 @@ echo ####### Allow Port 443             ####
 
 sudo ufw allow OpenSSH
 # sudo ufw allow 3306
-
+sudo ufw --force enable
