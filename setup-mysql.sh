@@ -3,12 +3,12 @@
 export DEBIAN_FRONTEND="noninteractive";
 
 ######################################################################################################
-#### IMPORTANT!!!! If you run this script on a public server, Change ALL usernames and passwords #####
+#### IMPORTANT!!!! Change ALL passwords, but for this exercise, leave the user-name so it matches the exercise text #####
 ######################################################################################################
 
 #User and Password for the dev-user
-DB_PW="ax22800ax2"
-DB_USER_NAME="all"
+DB_PW="CHANGE_MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE"
+DB_USER_NAME="mysql"
 
 
 # Find all versions of mysql here: https://downloads.mysql.com/archives/community/
