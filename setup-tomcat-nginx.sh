@@ -17,6 +17,8 @@ MANAGER_SCRIPT="script_user"
 MANAGER_SCRIPT_PW="CHANGE-MEEEEEEEEEEEEEEEEEEEEE"
 
 
+sudo apt-get update
+
 echo "########################## Install Java     #########################"
 sudo -E apt-get install -y openjdk-8-jre
 # sudo -E apt install openjdk-8-jre-headless
