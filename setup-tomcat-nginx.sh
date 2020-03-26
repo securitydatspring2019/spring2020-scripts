@@ -195,5 +195,6 @@ echo ####### Allow Port 443             ####
 sudo ufw allow OpenSSH
 sudo ufw allow http
 sudo ufw allow https
+sudo ufw --force enable
 
 
